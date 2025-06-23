@@ -122,7 +122,7 @@ body.index-page::before {
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: #222;
+  background: #ffffff;
   border-radius: 2px;
   transition: all 0.3s;
 }

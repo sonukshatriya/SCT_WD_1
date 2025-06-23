@@ -60,6 +60,10 @@ body::before {
   border-radius: 12px;
   font-family: cursive;
 }
+.nav-links.open {
+  display: flex;
+}
+
 .nav-links li {
   list-style: none;
   margin: 0 12px;
@@ -121,9 +125,36 @@ body::before {
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: #222;
+  background: #ffffff;
   border-radius: 2px;
   transition: all 0.3s;
+}
+
+
+@media (max-width: 900px) {
+  .navbar-container {
+    padding: 0 1rem;
+  }
+  .nav-links {
+    position: absolute;
+    top: 70px; right: 0;
+    background: #fff;
+    flex-direction: column;
+    width: 200px;
+    gap: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    display: none;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-links li a {
+    padding: 16px 24px;
+    color: #ffffff;
+  }
+  .hamburger {
+    display: flex;
+  }
 }
 
 /* Article Container */
