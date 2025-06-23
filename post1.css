@@ -2,7 +2,7 @@
 body, h1, h2, p, ul, li, table, th, td, pre, a {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Subtle gradient background with a pattern overlay */
@@ -47,7 +47,7 @@ body::before {
 .logo {
   font-weight: bold;
   font-size: 3rem;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:#5DCDE9;
   letter-spacing: 2px;
   text-decoration: none;
@@ -58,7 +58,7 @@ body::before {
   align-items: center;
   padding: 20px 15px;
   border-radius: 12px;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .nav-links.open {
   display: flex;
@@ -75,7 +75,7 @@ body::before {
   font-weight: bold;
   padding: 6px 0;
   text-decoration: none;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .nav-links li a:before {
   content: '';
