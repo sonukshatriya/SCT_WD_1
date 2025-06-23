@@ -45,7 +45,16 @@ body.index-page::before {
 .logo {
   font-weight: bold;
   font-size: 3rem;
-  color: #5DCDE9;
+  /* color: #5DCDE9; */
+   background: linear-gradient(
+    10deg,             /* Left to Right direction */
+    #02132a 0%,        /* Dark Blue Start */
+    #5DCDE9 50%,       /* Cyan Center */
+    #0A090C 100%       /* Dark Blackish End */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   letter-spacing: 2px;
   text-decoration: none;
 }
@@ -62,7 +71,16 @@ body.index-page::before {
 }
 .nav-links li a {
   position: relative;
-  color: #5DCDE9;
+  /* color: #5DCDE9; */
+   background: linear-gradient(
+    10deg,             /* Left to Right direction */
+    #02132a 0%,        /* Dark Blue Start */
+    #5DCDE9 50%,       /* Cyan Center */
+    #0A090C 100%       /* Dark Blackish End */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   font-size: 2.5rem;
   font-weight: bold;
   padding: 6px 0;
@@ -171,7 +189,7 @@ background: #010918;
   font-size: 2.8rem;
   color: #5DCDE9;
   margin-bottom: 24px;
-  font-weight: bold;
+  /* font-weight: bold; */
   
 }
 .about-section p {
