@@ -7,6 +7,7 @@ body, h1, h2, p, ul, li, table, th, td, pre, a {
 /* === Background and Body === */
 body {
   /* background: linear-gradient(120deg, #e0f2fe, #bae6fd, #7dd3fc); */
+  background: #010918;
   color: #333;
   line-height: 1.7;
   min-height: 100vh;
@@ -14,11 +15,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-body.index-page::before {
+body.about-page::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   pointer-events: none;
+  /* background: #010918; */
+  
 
 }
 
@@ -146,24 +149,9 @@ body.index-page::before {
   }
 }
 
-/* === About Section === */
+/* About Section */
 .about-section {
-  /* background: #399fd1; */
-    /* background: linear-gradient( #02132a 0%, #5DCDE9 60%, #0A090C 100%); */
- /* background: conic-gradient(
-    from 0deg,
-    #02132a,
-    #5DCDE9,
-    #0A090C,
-    #02132a
-  ); */
-    /* background: linear-gradient(120deg, #02132a 0%, #5DCDE9 50%, #0A090C 100%); */
-    /* background: linear-gradient(120deg, #02132a 5%, #5DCDE9 50%, #0A090C 100%); */
-
-/* background: #010a18; */
 background: #010918;
-    /* background: linear-gradient(120deg, #02132a 5%, #5DCDE9 50%, #0A090C 97%); */
-
   padding: 160px 20px;
   text-align: center;
 }
@@ -171,7 +159,6 @@ background: #010918;
   font-size: 2.8rem;
   color: #5DCDE9;
   margin-bottom: 24px;
-  /* font-weight: bold; */
   
 }
 .about-section p {
@@ -237,12 +224,11 @@ main.container h1 {
   background: #0A090C;
   color: #f1f1f1;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
   font-size: 1rem;
   box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
   z-index: 2;
   position: relative;
-  margin-top: auto;
 }
 .footer-container {
   max-width: 1100px;
@@ -252,7 +238,7 @@ main.container h1 {
 .footer p {
   margin: 4px 0;
   line-height: 1.6;
-  color: #ddd;
+  color: #ffffff;
 }
 
 /* === Responsive Content === */
